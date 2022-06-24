@@ -1,13 +1,12 @@
 import React from "react";
 import "./App.css";
+import ColorCard from "./ColorCard";
 
 function App() {
   return (
     <>
       <div className="cards">
-        <form className="card">
-          <input type="text" placeholder="Add color code here" />
-        </form>
+        <ColorCard hexcode={hexcode} />
       </div>
     </>
   );
